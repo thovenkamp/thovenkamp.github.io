@@ -436,8 +436,38 @@ section {
   bottom: 0;
   left: 0;
 }
+.section-title h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  /* color: #173b6c; */
+  /* color: #064366; */
+  /* color: #264577; */
+  color: #133e46;
+  /* color: #246464; */
+
+}
 .section-title p {
   margin-bottom: 0;
+}
+
+.skills-box {
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  text-align: center;
+  margin: auto;
+
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
+
+.skills-chevron {
+  filter: drop-shadow(5px 5px 5px rgba(54, 72, 77, 0.3));
 }
 
 /*--------------------------------------------------------------
